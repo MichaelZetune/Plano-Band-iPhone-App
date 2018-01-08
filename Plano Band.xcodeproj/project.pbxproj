@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2439561B27A72F00F139BE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2439551B27A72F00F139BE /* CalendarViewController.swift */; };
+		4C2439581B27A9EF00F139BE /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2439571B27A9EF00F139BE /* SubmitViewController.swift */; };
+		4C24395A1B27AC4100F139BE /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2439591B27AC4100F139BE /* house.png */; };
+		4C24395C1B27AC8200F139BE /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C24395B1B27AC8200F139BE /* calendar.png */; };
+		4C24395E1B27ACB700F139BE /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C24395D1B27ACB700F139BE /* plane.png */; };
+		4C2439601B27AD2500F139BE /* album.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C24395F1B27AD2500F139BE /* album.png */; };
+		4C2439621B27AD9700F139BE /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2439611B27AD9700F139BE /* notes.png */; };
+		4C2439661B27AE0B00F139BE /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2439651B27AE0B00F139BE /* twitter.png */; };
+		4C2CDC111B29FD5B00E57BCD /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC101B29FD5B00E57BCD /* song.mp3 */; };
+		4C2CDC131B29FD8E00E57BCD /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CDC121B29FD8E00E57BCD /* MusicViewController.swift */; };
+		4C2CDC191B2A014400E57BCD /* MusicSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CDC181B2A014400E57BCD /* MusicSelectionTableViewController.swift */; };
+		4C2CDC1B1B2A188300E57BCD /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC1A1B2A188300E57BCD /* player.png */; };
+		4C2CDC1D1B2A195B00E57BCD /* Concert I in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC1C1B2A195B00E57BCD /* Concert I */; };
+		4C2CDC211B2A197F00E57BCD /* Concert II in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC201B2A197F00E57BCD /* Concert II */; };
+		4C2CDC231B2A198600E57BCD /* Jazz Ensemble in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC221B2A198600E57BCD /* Jazz Ensemble */; };
+		4C2CDC251B2A198D00E57BCD /* Marching in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC241B2A198D00E57BCD /* Marching */; };
+		4C2CDC271B2A19A200E57BCD /* Wind Ensemble in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC261B2A19A200E57BCD /* Wind Ensemble */; };
+		4C2CDC291B2A19D800E57BCD /* Symphonic in Resources */ = {isa = PBXBuildFile; fileRef = 4C2CDC281B2A19D800E57BCD /* Symphonic */; };
+		4C69C9AB1B1128ED006BDFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9AA1B1128ED006BDFB7 /* AppDelegate.swift */; };
+		4C69C9AD1B1128ED006BDFB7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9AC1B1128ED006BDFB7 /* FirstViewController.swift */; };
+		4C69C9B21B1128ED006BDFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C69C9B01B1128ED006BDFB7 /* Main.storyboard */; };
+		4C69C9B41B1128ED006BDFB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C69C9B31B1128ED006BDFB7 /* Images.xcassets */; };
+		4C69C9B71B1128ED006BDFB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C69C9B51B1128ED006BDFB7 /* LaunchScreen.xib */; };
+		4C69C9C31B1128ED006BDFB7 /* Plano_BandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9C21B1128ED006BDFB7 /* Plano_BandTests.swift */; };
+		4C69C9CD1B112AFD006BDFB7 /* BandLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C69C9CC1B112AFD006BDFB7 /* BandLogo.gif */; };
+		4C69C9D11B112E4A006BDFB7 /* SocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9D01B112E4A006BDFB7 /* SocialMediaViewController.swift */; };
+		4C69C9D31B115738006BDFB7 /* BandSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9D21B115738006BDFB7 /* BandSiteViewController.swift */; };
+		4C69C9D51B1158D0006BDFB7 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C69C9D41B1158D0006BDFB7 /* MediaViewController.swift */; };
+		4CC684A21B702C5E0003653E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC684A11B702C5E0003653E /* PhotosViewController.swift */; };
+		4CC684A61B7031990003653E /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CC684A51B7031990003653E /* camera.png */; };
+		4CF0E36C1B3320F500FD1163 /* batman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E36B1B3320F500FD1163 /* batman.jpg */; };
+		4CF0E36E1B3323B600FD1163 /* planoformation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E36D1B3323B600FD1163 /* planoformation.gif */; };
+		4CF0E3701B33256800FD1163 /* Full Logo Wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E36F1B33256800FD1163 /* Full Logo Wide.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C69C9BD1B1128ED006BDFB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C69C99D1B1128ED006BDFB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C69C9A41B1128ED006BDFB7;
+			remoteInfo = "Plano Band";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C2439551B27A72F00F139BE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../CalendarViewController.swift; sourceTree = "<group>"; };
+		4C2439571B27A9EF00F139BE /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitViewController.swift; path = ../SubmitViewController.swift; sourceTree = "<group>"; };
+		4C2439591B27AC4100F139BE /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		4C24395B1B27AC8200F139BE /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		4C24395D1B27ACB700F139BE /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		4C24395F1B27AD2500F139BE /* album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = album.png; sourceTree = "<group>"; };
+		4C2439611B27AD9700F139BE /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		4C2439651B27AE0B00F139BE /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		4C2CDC101B29FD5B00E57BCD /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		4C2CDC121B29FD8E00E57BCD /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicViewController.swift; path = ../MusicViewController.swift; sourceTree = "<group>"; };
+		4C2CDC181B2A014400E57BCD /* MusicSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicSelectionTableViewController.swift; path = ../MusicSelectionTableViewController.swift; sourceTree = "<group>"; };
+		4C2CDC1A1B2A188300E57BCD /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		4C2CDC1C1B2A195B00E57BCD /* Concert I */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Concert I"; sourceTree = "<group>"; };
+		4C2CDC201B2A197F00E57BCD /* Concert II */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Concert II"; sourceTree = "<group>"; };
+		4C2CDC221B2A198600E57BCD /* Jazz Ensemble */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Jazz Ensemble"; sourceTree = "<group>"; };
+		4C2CDC241B2A198D00E57BCD /* Marching */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Marching; sourceTree = "<group>"; };
+		4C2CDC261B2A19A200E57BCD /* Wind Ensemble */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Wind Ensemble"; sourceTree = "<group>"; };
+		4C2CDC281B2A19D800E57BCD /* Symphonic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Symphonic; sourceTree = "<group>"; };
+		4C69C9A51B1128ED006BDFB7 /* Plano Band.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plano Band.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C69C9A91B1128ED006BDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69C9AA1B1128ED006BDFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C69C9AC1B1128ED006BDFB7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4C69C9B11B1128ED006BDFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C69C9B31B1128ED006BDFB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C69C9B61B1128ED006BDFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C69C9BC1B1128ED006BDFB7 /* Plano BandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plano BandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C69C9C11B1128ED006BDFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C69C9C21B1128ED006BDFB7 /* Plano_BandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plano_BandTests.swift; sourceTree = "<group>"; };
+		4C69C9CC1B112AFD006BDFB7 /* BandLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BandLogo.gif; sourceTree = "<group>"; };
+		4C69C9D01B112E4A006BDFB7 /* SocialMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMediaViewController.swift; sourceTree = "<group>"; };
+		4C69C9D21B115738006BDFB7 /* BandSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSiteViewController.swift; sourceTree = "<group>"; };
+		4C69C9D41B1158D0006BDFB7 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		4CC684A11B702C5E0003653E /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = ../PhotosViewController.swift; sourceTree = "<group>"; };
+		4CC684A51B7031990003653E /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		4CF0E36B1B3320F500FD1163 /* batman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman.jpg; sourceTree = "<group>"; };
+		4CF0E36D1B3323B600FD1163 /* planoformation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = planoformation.gif; sourceTree = "<group>"; };
+		4CF0E36F1B33256800FD1163 /* Full Logo Wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Logo Wide.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C69C9A21B1128ED006BDFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69C9B91B1128ED006BDFB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C69C99C1B1128ED006BDFB7 = {
+			isa = PBXGroup;
+			children = (
+				4C69C9A71B1128ED006BDFB7 /* Plano Band */,
+				4C69C9BF1B1128ED006BDFB7 /* Plano BandTests */,
+				4C69C9A61B1128ED006BDFB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C69C9A61B1128ED006BDFB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C69C9A51B1128ED006BDFB7 /* Plano Band.app */,
+				4C69C9BC1B1128ED006BDFB7 /* Plano BandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C69C9A71B1128ED006BDFB7 /* Plano Band */ = {
+			isa = PBXGroup;
+			children = (
+				4C69C9AA1B1128ED006BDFB7 /* AppDelegate.swift */,
+				4C69C9AC1B1128ED006BDFB7 /* FirstViewController.swift */,
+				4C69C9D01B112E4A006BDFB7 /* SocialMediaViewController.swift */,
+				4C2439551B27A72F00F139BE /* CalendarViewController.swift */,
+				4C69C9D21B115738006BDFB7 /* BandSiteViewController.swift */,
+				4C69C9D41B1158D0006BDFB7 /* MediaViewController.swift */,
+				4CC684A11B702C5E0003653E /* PhotosViewController.swift */,
+				4C2CDC181B2A014400E57BCD /* MusicSelectionTableViewController.swift */,
+				4C2CDC121B29FD8E00E57BCD /* MusicViewController.swift */,
+				4C2439571B27A9EF00F139BE /* SubmitViewController.swift */,
+				4C69C9B01B1128ED006BDFB7 /* Main.storyboard */,
+				4C69C9B31B1128ED006BDFB7 /* Images.xcassets */,
+				4C69C9B51B1128ED006BDFB7 /* LaunchScreen.xib */,
+				4C69C9A81B1128ED006BDFB7 /* Supporting Files */,
+			);
+			path = "Plano Band";
+			sourceTree = "<group>";
+		};
+		4C69C9A81B1128ED006BDFB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2CDC241B2A198D00E57BCD /* Marching */,
+				4C2CDC221B2A198600E57BCD /* Jazz Ensemble */,
+				4C2CDC261B2A19A200E57BCD /* Wind Ensemble */,
+				4C2CDC281B2A19D800E57BCD /* Symphonic */,
+				4C2CDC1C1B2A195B00E57BCD /* Concert I */,
+				4C2CDC201B2A197F00E57BCD /* Concert II */,
+				4C2CDC101B29FD5B00E57BCD /* song.mp3 */,
+				4CF0E36F1B33256800FD1163 /* Full Logo Wide.png */,
+				4CF0E36D1B3323B600FD1163 /* planoformation.gif */,
+				4CF0E36B1B3320F500FD1163 /* batman.jpg */,
+				4C2439591B27AC4100F139BE /* house.png */,
+				4C2CDC1A1B2A188300E57BCD /* player.png */,
+				4C24395D1B27ACB700F139BE /* plane.png */,
+				4C24395F1B27AD2500F139BE /* album.png */,
+				4C2439611B27AD9700F139BE /* notes.png */,
+				4C2439651B27AE0B00F139BE /* twitter.png */,
+				4CC684A51B7031990003653E /* camera.png */,
+				4C24395B1B27AC8200F139BE /* calendar.png */,
+				4C69C9CC1B112AFD006BDFB7 /* BandLogo.gif */,
+				4C69C9A91B1128ED006BDFB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C69C9BF1B1128ED006BDFB7 /* Plano BandTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C69C9C21B1128ED006BDFB7 /* Plano_BandTests.swift */,
+				4C69C9C01B1128ED006BDFB7 /* Supporting Files */,
+			);
+			path = "Plano BandTests";
+			sourceTree = "<group>";
+		};
+		4C69C9C01B1128ED006BDFB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C69C9C11B1128ED006BDFB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C69C9A41B1128ED006BDFB7 /* Plano Band */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69C9C61B1128ED006BDFB7 /* Build configuration list for PBXNativeTarget "Plano Band" */;
+			buildPhases = (
+				4C69C9A11B1128ED006BDFB7 /* Sources */,
+				4C69C9A21B1128ED006BDFB7 /* Frameworks */,
+				4C69C9A31B1128ED006BDFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plano Band";
+			productName = "Plano Band";
+			productReference = 4C69C9A51B1128ED006BDFB7 /* Plano Band.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C69C9BB1B1128ED006BDFB7 /* Plano BandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C69C9C91B1128ED006BDFB7 /* Build configuration list for PBXNativeTarget "Plano BandTests" */;
+			buildPhases = (
+				4C69C9B81B1128ED006BDFB7 /* Sources */,
+				4C69C9B91B1128ED006BDFB7 /* Frameworks */,
+				4C69C9BA1B1128ED006BDFB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C69C9BE1B1128ED006BDFB7 /* PBXTargetDependency */,
+			);
+			name = "Plano BandTests";
+			productName = "Plano BandTests";
+			productReference = 4C69C9BC1B1128ED006BDFB7 /* Plano BandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C69C99D1B1128ED006BDFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Michael Zetune";
+				TargetAttributes = {
+					4C69C9A41B1128ED006BDFB7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4C69C9BB1B1128ED006BDFB7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4C69C9A41B1128ED006BDFB7;
+					};
+				};
+			};
+			buildConfigurationList = 4C69C9A01B1128ED006BDFB7 /* Build configuration list for PBXProject "Plano Band" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C69C99C1B1128ED006BDFB7;
+			productRefGroup = 4C69C9A61B1128ED006BDFB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C69C9A41B1128ED006BDFB7 /* Plano Band */,
+				4C69C9BB1B1128ED006BDFB7 /* Plano BandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C69C9A31B1128ED006BDFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69C9B21B1128ED006BDFB7 /* Main.storyboard in Resources */,
+				4C2CDC251B2A198D00E57BCD /* Marching in Resources */,
+				4C2439601B27AD2500F139BE /* album.png in Resources */,
+				4CF0E36E1B3323B600FD1163 /* planoformation.gif in Resources */,
+				4C2CDC211B2A197F00E57BCD /* Concert II in Resources */,
+				4C69C9B71B1128ED006BDFB7 /* LaunchScreen.xib in Resources */,
+				4C2439661B27AE0B00F139BE /* twitter.png in Resources */,
+				4C69C9B41B1128ED006BDFB7 /* Images.xcassets in Resources */,
+				4C24395E1B27ACB700F139BE /* plane.png in Resources */,
+				4CF0E36C1B3320F500FD1163 /* batman.jpg in Resources */,
+				4C2439621B27AD9700F139BE /* notes.png in Resources */,
+				4C2CDC231B2A198600E57BCD /* Jazz Ensemble in Resources */,
+				4C2CDC1D1B2A195B00E57BCD /* Concert I in Resources */,
+				4C24395C1B27AC8200F139BE /* calendar.png in Resources */,
+				4CF0E3701B33256800FD1163 /* Full Logo Wide.png in Resources */,
+				4C2CDC111B29FD5B00E57BCD /* song.mp3 in Resources */,
+				4C2CDC271B2A19A200E57BCD /* Wind Ensemble in Resources */,
+				4CC684A61B7031990003653E /* camera.png in Resources */,
+				4C24395A1B27AC4100F139BE /* house.png in Resources */,
+				4C2CDC1B1B2A188300E57BCD /* player.png in Resources */,
+				4C69C9CD1B112AFD006BDFB7 /* BandLogo.gif in Resources */,
+				4C2CDC291B2A19D800E57BCD /* Symphonic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69C9BA1B1128ED006BDFB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C69C9A11B1128ED006BDFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2439581B27A9EF00F139BE /* SubmitViewController.swift in Sources */,
+				4C2439561B27A72F00F139BE /* CalendarViewController.swift in Sources */,
+				4C69C9D31B115738006BDFB7 /* BandSiteViewController.swift in Sources */,
+				4C69C9D51B1158D0006BDFB7 /* MediaViewController.swift in Sources */,
+				4C2CDC131B29FD8E00E57BCD /* MusicViewController.swift in Sources */,
+				4C69C9D11B112E4A006BDFB7 /* SocialMediaViewController.swift in Sources */,
+				4C69C9AB1B1128ED006BDFB7 /* AppDelegate.swift in Sources */,
+				4C2CDC191B2A014400E57BCD /* MusicSelectionTableViewController.swift in Sources */,
+				4C69C9AD1B1128ED006BDFB7 /* FirstViewController.swift in Sources */,
+				4CC684A21B702C5E0003653E /* PhotosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C69C9B81B1128ED006BDFB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C69C9C31B1128ED006BDFB7 /* Plano_BandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C69C9BE1B1128ED006BDFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C69C9A41B1128ED006BDFB7 /* Plano Band */;
+			targetProxy = 4C69C9BD1B1128ED006BDFB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C69C9B01B1128ED006BDFB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C69C9B11B1128ED006BDFB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C69C9B51B1128ED006BDFB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C69C9B61B1128ED006BDFB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C69C9C41B1128ED006BDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C69C9C51B1128ED006BDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C69C9C71B1128ED006BDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Plano Band/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C69C9C81B1128ED006BDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Plano Band/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C69C9CA1B1128ED006BDFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Plano BandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plano Band.app/Plano Band";
+			};
+			name = Debug;
+		};
+		4C69C9CB1B1128ED006BDFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Plano BandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plano Band.app/Plano Band";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C69C9A01B1128ED006BDFB7 /* Build configuration list for PBXProject "Plano Band" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69C9C41B1128ED006BDFB7 /* Debug */,
+				4C69C9C51B1128ED006BDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C69C9C61B1128ED006BDFB7 /* Build configuration list for PBXNativeTarget "Plano Band" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69C9C71B1128ED006BDFB7 /* Debug */,
+				4C69C9C81B1128ED006BDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C69C9C91B1128ED006BDFB7 /* Build configuration list for PBXNativeTarget "Plano BandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69C9CA1B1128ED006BDFB7 /* Debug */,
+				4C69C9CB1B1128ED006BDFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C69C99D1B1128ED006BDFB7 /* Project object */;
+}
