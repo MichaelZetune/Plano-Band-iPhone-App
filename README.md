@@ -14,7 +14,7 @@ This project was developed in 2015, so much of the code is somewhat deprecated a
 ## Demonstration
 See below for a demonstration. It takes a few moments to load.
 
-![GIF not loaded](https://github.com/Oblivion00/Plano-Band-iPhone-App/blob/master/PlanoBand.gif)
+![GIF not loaded](https://github.com/MichaelZetune/Plano-Band-iPhone-App/blob/master/PlanoBand.gif)
 
 ## Acknowledgements
 Thank you to Paul Solt and his Intro to Swift course for helping me get off the ground with the language and developing for iPhone. His explanations and demonstrations were invaluable.
