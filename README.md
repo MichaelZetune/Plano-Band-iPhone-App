@@ -2,7 +2,7 @@
 An informational iPhone app I created in high school for my band program. Seeks to inform members of events, play music recordings, and show off videos of the organization. Although basic, I'm very proud of this project as it was my first attempt at learning a new language (outside of AP CS Java) and coding something new I came up with on my own.
 
 ## Notes
-This project was developed in 2015, so much of the code is somewhat deprecated and probably won't compile on the newest Xcode and Swift versions. As you might know, Apple updates its IDE and language frequently.
+This project was developed in 2015, so much of the code is somewhat deprecated and probably won't compile on the newest Xcode and Swift versions - Apple updates its IDE and language frequently.
 
 ## Uses
 * Display public calendar of events
