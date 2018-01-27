@@ -12,7 +12,7 @@ This project was developed in 2015, so much of the code is somewhat deprecated a
 * View public photos of the band
 
 ## Demonstration
-See below for a demonstration. It takes a few moments to load.
+See demonstration below. It takes a few moments to load.
 
 ![GIF not loaded](https://github.com/MichaelZetune/Plano-Band-iPhone-App/blob/master/PlanoBand.gif)
 
